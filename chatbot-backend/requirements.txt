@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+langchain
+faiss-cpu
+chromadb
+openai
+huggingface-hub
+google-generativeai
