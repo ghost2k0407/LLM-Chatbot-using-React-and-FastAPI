@@ -37,25 +37,6 @@ LLM-Chatbot-using-React-and-FastAPI-main/
 
 ## ⚙️ Backend Setup (FastAPI)
 
-### 1️⃣ Create a Virtual Environment
-```bash
-cd chatbot-backend
-python -m venv venv
-source venv/bin/activate   # On macOS/Linux
-venv\Scripts\activate      # On Windows
-```
-
-### 2️⃣ Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 3️⃣ Configure Environment Variables
-Create a `.env` file in `chatbot-backend/`:
-```env
-OPENAI_API_KEY=your_api_key_here
-```
-
 ### 4️⃣ Run the Backend
 ```bash
 uvicorn main:app --reload
@@ -97,10 +78,6 @@ const API_URL = "http://127.0.0.1:8000";
 
 ---
 
-## 📸 Screenshots
-*(Add screenshots here if needed)*
-
----
 
 ## 🛠 Tech Stack
 **Backend:**
@@ -116,6 +93,3 @@ const API_URL = "http://127.0.0.1:8000";
 - TailwindCSS
 
 ---
-
-## 📜 License
-This project is licensed under the MIT License.
